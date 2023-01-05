@@ -4,12 +4,7 @@ import App from './App';
 import './index.css';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
+import darkTheme from './theme';
 
 ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
